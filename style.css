@@ -1,0 +1,117 @@
+  /*共通設定*/
+@charset "utf-8";
+body{
+	font-family:'メイリオ','Hiragino Kaku Gothic Pro','Times New Roman',sans-serif;
+	margin:0px;		font-size:15px;		word-wrap:break-all;}
+ul{	margin:0;	padding:0;	list-style:none;}
+h1,h2,h3,h4,h5,p{	margin:0;	padding:0;}
+ul li a{	display:block	text-decoration:none;	color:black;}
+
+
+/*ヘッダー*/
+header{
+	position:fixed;
+	height:60px;
+	width:100%;
+	line-height:60px;
+	background-color:rgba(242,28,189,0.5);
+	z-index:10;}
+.header-inner{
+	width:95%;
+	margin:0 auto;}
+.left-header{	float:left;}
+.right-header{	float:right;}
+.left-header img{
+	height:40px;
+	margin-top:10px;}
+.right-header img{
+	height:40px;
+	margin-top:10px;}
+
+/*トップ*/
+.top{
+	text-align:center;
+	background-image:url(img/top.jpg);
+	background-size:cover;
+	padding:100px 0 50px;}
+h1{
+	font-size:30px;
+	color:#000;
+	margin-bottom:130px;}
+h2{
+	font-size:20px;
+	color:#000;
+	margin-bottom:10px;}
+.top p{
+	font-size:14px;
+	color:#000;
+	font-weight:bold;}
+
+/*ミドル*/
+.middle{
+	background-color:#eee;
+	padding-top:50px;}
+.middle ul{
+	display:flex;
+	flex-direction:column;}
+.middle li{
+	width:100%;
+	text-align:center;}
+.number-circle{
+	position:relative;}
+.child{
+	position:absolute;
+	top:50%;	left:50%;
+	transform:translate(-50%,-50%);
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;}
+.circle{
+	width:70px;
+	height:70px;
+	margin:20px auto;
+	border-radius:50%;}
+.txt-box{
+	width:90%;
+	margin:10px auto 50px;
+	font-size:13px;
+	color:rgba(80,80,80);
+	line-height:25px;}
+.catchcopy{
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:underline;}
+.red{	background-color:red;}
+.orange{	background-color:orange;}
+.green{	background-color:green;}
+.blue{	background-color:blue;}
+.purple{	background-color:purple;}
+
+
+/*ボトム*/
+.bottom{
+	text-align:center;
+	width:90%;
+	margin:50px auto;}
+h3{
+	font-size:18px;
+	color:#000;
+	margin-bottom:10px;}
+.bottom p{
+	font-size:14px;
+	color:#000;
+	font-weight:bold;}
+	
+
+/*フッター*/
+footer{
+	height:80px;
+	width:90%;
+	padding:10px 5%;
+	background-color:rgba(242,28,189,0.5);}
+footer p{
+	font-size:15px;
+	color:#fff;
+	margin-bottom:10px;}
+footer img{
+	height:40px;}
